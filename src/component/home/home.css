@@ -1,0 +1,255 @@
+body{
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+.top-text-div{
+    width: 94vw;
+    margin-bottom: 4vh;
+}
+.top-h1{
+    font-size: 2.4rem;
+    text-align: start;
+}
+.top-p{
+    text-align: start;
+    font-size: 1.3rem;
+    margin-bottom: 2em;
+}
+.top-btn{
+    height: 50px;
+    min-width: 150px;
+    max-width: 170px;
+    background-color: #fff;
+    border: 2.2px solid rgb(239, 192, 105);
+    border-radius: 25px;
+    margin-left: 1em;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 2em;
+}
+
+.top-image{
+    width: 94vw;
+}
+.popular-h1{
+    text-align: start;
+}
+.service-h1{
+    text-align: start;
+    font-size: 2rem;
+}
+.service-p{
+    text-align: start;
+    font-size: 1.6rem;
+    color: grey;
+}
+.service-ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 0px;
+}
+.service-li{
+    list-style-type: none;
+    text-align: start;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+.service-btn{
+    height: 50px;
+    width: 150px;
+    background-color: #fff;
+    border: 2.2px solid rgb(239, 192, 105);
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 2em;
+    margin-right: 0px;
+    float: left;
+}
+.serve-img{
+    width: 100%;
+    height: 60vh;
+}
+.reserve-container{
+    margin-top: 2em;
+}
+.reserve-h1{
+    text-align: start;
+}
+.reserve-p{
+    text-align: start;
+    font-size: 1.6rem;
+    color: grey;
+}
+.reserve-btn{
+    height: 50px;
+    width: 200px;
+    background-color: #fff;
+    border: 2.2px solid rgb(239, 192, 105);
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 2em;
+    margin-right: 0px;
+    float: left;
+}
+.reserve-img{
+    width: 94vw;
+}
+.chef-div{
+    display: grid;
+    grid-gap: 1em;
+}
+.chef-img-div{
+    background-color: honeydew;
+    border-radius: 25px;
+}
+.chef-h1{
+    text-align: start;
+}
+.chef-img{
+    padding-top: 1em;
+    height: 40vh;
+    width: 80%;
+}
+@media (min-width:800px) and (max-width:1241px){
+    .top-container{
+        display: flex;
+    }
+    .top-text-div{
+        height: 70vh;
+        width: 40vw;
+    }
+    .top-image-div{
+        height: 70vh;
+    }
+    .top-image{
+        height: 70vh;
+        width: 54vw;
+    }
+    .top-btn-div{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .top-btn{
+        margin-left: 0px;
+    }
+    .service-overall-container{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 6em;
+    }
+    .service-container{
+        width: 40vw;
+        margin-left: 5vw;
+    }
+    .serve-img{
+        width: 40vw;
+        height: 70vh;
+    }
+    .service-h1{
+        width: 300px;
+    }
+    .reserve-container{
+        display: flex;
+        margin-top: 2em;
+    }
+    .reserve-img{
+        height: 65vh;
+        width: 50vw;
+        margin-top: 2em;
+    }
+    .chef-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1242px){
+    body{
+        margin-left: 6.5vw;
+        margin-right: 6.5vw;
+    }
+    .top-container{
+        display: flex;
+    }
+    .top-text-div{
+        width: 40vw;
+        height: 70vh;
+    }
+    .top-h1{
+        text-align: start;
+        font-size: 3.5rem;
+    }
+    .top-p{
+        text-align: start;
+        margin-bottom: 1.5em;
+    }
+    .top-btn{
+        height: 50px;
+        width: 130px;
+        background-color: #fff;
+        border: 2.2px solid rgb(239, 192, 105);
+        border-radius: 25px;
+        margin-left: 1em;
+    }
+    .top-btn:hover{
+        transition: all 0.3s linear;
+        background-color: rgb(239, 192, 105);
+    }
+    
+    .top-image-div{
+        min-width: 35vw;
+        max-width: 45vw;
+        min-height: 30vh;
+        max-height: 70vh;
+    }
+    .top-image{
+        min-width: 30vw;
+        min-height: 30vh;
+        max-width: 40vw;
+        max-height: 60vh;
+        margin-top: 5vh;
+    }
+    .service-overall-container{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 6em;
+    }
+    .service-container{
+        width: 40vw;
+        margin-left: 5vw;
+    }
+    .serve-img{
+        width: 40vw;
+        height: 70vh;
+    }
+    .service-h1{
+        width: 300px;
+    }
+    .service-p{
+        font-size: 1.2rem;
+    }
+    .reserve-container{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5em;
+    }
+    .reserve-div{
+        width: 45vw;
+    }
+    .reserve-img{
+        margin-top: 1.7em;
+        min-width: 30vw;
+        min-height: 30vh;
+        max-width: 40vw;
+        max-height: 60vh;
+    }
+    .chef-img:hover{
+        transform: scale(1.1);
+        transition: all 0.3s linear;
+    }
+    .chef-div{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
